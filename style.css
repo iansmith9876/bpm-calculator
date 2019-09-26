@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:700);
+
+body {
+  background-color: #e57066;
+}
+
+#beat-input {
+  background-color: #28292b;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  transition: all 200ms;
+}
+
+#beat-input.active {
+  width: 150px;
+  height: 150px;
+}
+
+.bpm-text {
+  width: 100%;
+  text-align: center;
+  padding: 16px 0;
+}
+
+#bpm {
+  font-size: 3em;
+  font-weight: 900;
+  color: #28292b;
+  font-family: Roboto Mono;
+}
+
+.intsruction-text {
+  color: #28292b;
+  font-family: Roboto Mono;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

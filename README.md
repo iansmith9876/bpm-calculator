@@ -1,1 +1,1 @@
-# bpm-calculator
+# BPM Calculator
