@@ -74,10 +74,6 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-beatInput.addEventListener('touchstart', () => {
-  recordBeat();
-});
-
 beatInput.addEventListener('mousedown', () => {
   recordBeat();
 });
